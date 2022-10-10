@@ -1,0 +1,23 @@
+.alert {
+    position: fixed;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    text-align: center;
+    width: 38%;
+    top: 79px;
+    left: 30%;
+    z-index: 4;
+}
+
+.alert-success {
+    background-color: #48a868;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.alert-danger {
+    background-color: #d34c47;
+    color: aliceblue;
+    font-size: 1.7em
+}

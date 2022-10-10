@@ -1,0 +1,17 @@
+.fs-body {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 54rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pagination>li.active>a {
+    color: #fff;
+    background-color: #3b8deb !important;
+    border: #3fb7ee !important;
+}
+
+.pagination>li>a {
+    border-radius: 7px !important;
+}
