@@ -1,4 +1,4 @@
-version: "3.6"
+version: "3"
 services:
   nginx:
     depends_on:
@@ -31,7 +31,7 @@ services:
     restart: on-failure
     container_name: backend
   mongo:
-    image: mongo:5
+    image: mongo:5.0.13
     container_name: "mongo-db"
     ports:
       - "27017:27017"
